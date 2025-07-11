@@ -25,6 +25,7 @@ public class Main {
         }
 
         //printing original container
+        System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         for (int l=0; l<106; l++){
             System.out.print( containers[l] + " ");
 
@@ -32,6 +33,7 @@ public class Main {
                 System.out.println();
             }
         }
+        System.out.println("\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
         //introducing variables
         int P;
@@ -40,7 +42,7 @@ public class Main {
         int sum = 0;
 
         //getting correct value of M
-        do{System.out.print("\nEnter value of M: ");
+        do{System.out.print("Enter value of M: ");
         M = scanner.nextInt();
         } while(M < 0 || M > 105);
 
@@ -78,6 +80,7 @@ public class Main {
         }
 
         //printing new container
+        System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         for (int l=0; l<106; l++){
             System.out.print( containers[l] + " ");
 
@@ -85,6 +88,7 @@ public class Main {
                 System.out.println();
             }
         }
+        System.out.println("\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
         //calculating and printing sum of all values of containers
         for(int container : containers){
