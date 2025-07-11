@@ -19,7 +19,6 @@ public class Main {
 
        //Making container
         int[] containers = new int[106];
-
         for(int i=0; i<106; i++){
             containers[i] = i+1;
         }
@@ -28,10 +27,7 @@ public class Main {
         System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         for (int l=0; l<106; l++){
             System.out.print( containers[l] + " ");
-
-            if( l == 54 ){
-                System.out.println();
-            }
+            if( l == 54 ){System.out.println();}
         }
         System.out.println("\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
@@ -83,10 +79,7 @@ public class Main {
         System.out.println("------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
         for (int l=0; l<106; l++){
             System.out.print( containers[l] + " ");
-
-            if( l == 54 ){
-                System.out.println();
-            }
+            if( l == 54 ){System.out.println();}
         }
         System.out.println("\n------------------------------------------------------------------------------------------------------------------------------------------------------------------------------");
 
@@ -94,7 +87,6 @@ public class Main {
         for(int container : containers){
             sum += container;
         }
-
         System.out.println("\nThe total sum of all the values of the containers is: " + sum);
 
         scanner.close();
